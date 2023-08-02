@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/moonlit_asteroid" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0pt" android:textColor="#ffffffff" android:gravity="center" android:paddingTop="70.0pt" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/tulisan_layar_depan" android:fontFamily="sans-serif-condensed-medium" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:paddingTop="100.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="10.0dip">
+        <TextView android:textSize="10.0pt" android:textColor="#ffffffff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/username" android:paddingEnd="20.0dip" />
+        <EditText android:gravity="center" android:id="@id/username_input" android:background="@drawable/rounded_edittext" android:layout_width="220.0dip" android:layout_height="25.0dip" android:hint="@string/username" android:inputType="text" android:autofillHints="username" />
+    </LinearLayout>
+    <TextView android:textColor="#ffff0000" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" />
+    <TextView android:textSize="10.0pt" android:textColor="#ffffffff" android:gravity="center" android:paddingTop="100.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/pilih_support_systemmu" />
+    <LinearLayout android:orientation="horizontal" android:paddingTop="50.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/member1" android:background="@drawable/border_image" android:padding="3.0dip" android:layout_width="75.0dip" android:layout_height="75.0dip" android:scaleType="centerCrop" android:cropToPadding="true" android:layout_weight="1.0" app:srcCompat="@drawable/marsha_cuy" />
+        <ImageView android:id="@id/member2" android:background="@drawable/border_image" android:padding="3.0dip" android:layout_width="75.0dip" android:layout_height="75.0dip" android:scaleType="centerCrop" android:cropToPadding="true" android:layout_weight="1.0" app:srcCompat="@drawable/fw9_imraeaakn9g" />
+        <ImageView android:id="@id/member3" android:background="@drawable/border_image" android:padding="3.0dip" android:layout_width="75.0dip" android:layout_height="75.0dip" android:scaleType="centerCrop" android:cropToPadding="true" android:layout_weight="1.0" app:srcCompat="@drawable/mashiro_cuy" />
+        <ImageView android:id="@id/member4" android:background="@drawable/border_image" android:padding="3.0dip" android:layout_width="75.0dip" android:layout_height="75.0dip" android:scaleType="centerCrop" android:cropToPadding="true" android:layout_weight="1.0" app:srcCompat="@drawable/dio_brando" />
+    </LinearLayout>
+</LinearLayout>

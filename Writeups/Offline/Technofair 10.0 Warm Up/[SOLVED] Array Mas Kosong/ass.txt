@@ -1,0 +1,178 @@
+
+chall:     file format elf64-x86-64
+
+
+Disassembly of section .text:
+
+
+sub    $0x133700,%rsp
+mov    $0x1,%eax
+mov    $0x1,%edi
+movabs $0x600387,%rsi
+
+mov    $0x3c,%edx
+syscall
+nop
+mov    $0x1,%eax
+mov    $0x1,%edi
+movabs $0x600416,%rsi
+
+mov    $0x2e,%edx
+syscall
+nop
+nop
+nop
+nop
+mov    $0x19,%ecx
+mov    $0x6e,%eax
+nop
+sub    $0x1,%ecx
+mov    $0x29,%ecx
+mov    $0x39,%eax
+mov    $0x18,%ecx
+mov    $0x31,%eax
+mov    $0x22,%ecx
+mov    $0x67,%eax
+nop
+mov    %eax,%ecx
+mov    $0x0,%ecx
+mov    $0x65,%eax
+nop
+mov    $0x13,%ecx
+mov    $0x69,%eax
+mov    $0x30,%ecx
+mov    $0x67,%eax
+nop
+sub    $0x1,%ecx
+mov    $0x14,%ecx
+mov    $0x6e,%eax
+nop
+mov    $0xf,%ecx
+mov    $0x30,%eax
+nop
+mov    $0x12,%ecx
+mov    $0x5f,%eax
+nop
+mov    %eax,%ecx
+mov    $0x1,%ecx
+mov    $0x63,%eax
+mov    $0x15,%ecx
+mov    $0x64,%eax
+mov    $0x2,%ecx
+mov    $0x78,%eax
+nop
+mov    %eax,%ecx
+mov    $0x1e,%ecx
+mov    $0x61,%eax
+mov    $0x3,%ecx
+mov    $0x5f,%eax
+nop
+mov    $0x21,%ecx
+mov    $0x67,%eax
+nop
+sub    $0x1,%ecx
+mov    $0xe,%ecx
+mov    $0x6f,%eax
+nop
+mov    $0x2f,%ecx
+mov    $0x39,%eax
+mov    $0x26,%ecx
+mov    $0x67,%eax
+nop
+mov    %eax,%ecx
+mov    $0x4,%ecx
+mov    $0x72,%eax
+mov    $0x31,%ecx
+mov    $0x67,%eax
+nop
+mov    $0x11,%ecx
+mov    $0x72,%eax
+nop
+sub    $0x1,%ecx
+mov    $0x2a,%ecx
+mov    $0x67,%eax
+mov    $0x16,%ecx
+mov    $0x33,%eax
+mov    $0x2c,%ecx
+mov    $0x67,%eax
+nop
+sub    $0x1,%ecx
+mov    $0x20,%ecx
+mov    $0x67,%eax
+mov    $0x9,%ecx
+mov    $0x74,%eax
+mov    $0x32,%ecx
+mov    $0x21,%eax
+nop
+mov    %eax,%ecx
+mov    $0x28,%ecx
+mov    $0x67,%eax
+nop
+mov    $0xd,%ecx
+mov    $0x66,%eax
+mov    $0xa,%ecx
+mov    $0x65,%eax
+nop
+sub    $0x1,%ecx
+mov    $0x24,%ecx
+mov    $0x67,%eax
+mov    $0xc,%ecx
+mov    $0x5f,%eax
+nop
+mov    $0xb,%ecx
+mov    $0x72,%eax
+nop
+xor    %ecx,%ecx
+mov    $0x7,%ecx
+mov    $0x31,%eax
+mov    $0x1a,%ecx
+mov    $0x67,%eax
+nop
+mov    $0x2d,%ecx
+mov    $0x39,%eax
+nop
+sub    $0x1,%ecx
+mov    $0x1c,%ecx
+mov    $0x66,%eax
+mov    $0x5,%ecx
+mov    $0x33,%eax
+mov    $0x1d,%ecx
+mov    $0x6c,%eax
+nop
+mov    %eax,%ecx
+mov    $0x8,%ecx
+mov    $0x73,%eax
+nop
+mov    $0x23,%ecx
+mov    $0x67,%eax
+mov    $0x27,%ecx
+mov    $0x39,%eax
+nop
+mov    %eax,%ecx
+mov    $0x1f,%ecx
+mov    $0x67,%eax
+mov    $0x2e,%ecx
+mov    $0x67,%eax
+nop
+mov    $0x2b,%ecx
+mov    $0x39,%eax
+nop
+xor    %eax,%eax
+mov    $0x25,%ecx
+mov    $0x67,%eax
+mov    $0x17,%ecx
+mov    $0x78,%eax
+mov    $0x10,%ecx
+mov    $0x6f,%eax
+nop
+xor    %eax,%eax
+mov    $0x6,%ecx
+mov    $0x67,%eax
+nop
+mov    $0x1b,%ecx
+mov    $0x5f,%eax
+nop
+nop
+nop
+mov    $0x3c,%eax
+syscall
